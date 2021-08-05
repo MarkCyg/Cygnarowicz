@@ -93,6 +93,7 @@ section {
 
 /*-----------about me---------*/
 
+
 .intro h2 {
   text-align: left;
   padding: 0 auto;
@@ -123,3 +124,6 @@ section {
 
 /*-------------WORK-------------*/
 
+.work {
+  padding: 0 auto;
+}

@@ -87,20 +87,21 @@ section {
   font-size: 35px;
 }
 
-/*-----------about me---------*/
-
 .hero-cta p {
   margin: 5px 0 15px 0;
 }
 
-.flex-row h2 {
+/*-----------about me---------*/
+
+.intro h2 {
   text-align: left;
+  padding: 0 auto;
 }
 
 .intro p {
   line-height: 1.7;
   color: var(--primary-color);
-  width: 80%;
+  width: 60%;
   font-size: 20px;
   margin: 0 auto;
   text-align: center;
@@ -119,3 +120,6 @@ section {
 .secondary-border {
   border-color: #39a6b2;
 }
+
+/*-------------WORK-------------*/
+

@@ -87,6 +87,35 @@ section {
   font-size: 35px;
 }
 
+/*-----------about me---------*/
+
 .hero-cta p {
   margin: 5px 0 15px 0;
+}
+
+.flex-row h2 {
+  text-align: left;
+}
+
+.intro p {
+  line-height: 1.7;
+  color: var(--primary-color);
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  border-left: 3px solid;
+}
+
+.section-title {
+  font-size: 35px;
+  color: #024e76;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
 }

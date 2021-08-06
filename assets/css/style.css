@@ -115,6 +115,9 @@ section {
   color: var(--primary-color);
   flex-wrap: wrap;
   font-size: 35px;
+  text-align: right;
+  padding: 0 20px 0 0;
+  border-right: 5px solid;
 }
 
 .box2 {
@@ -124,11 +127,36 @@ section {
   font-size: 20px;
   display: flex;
   text-align: center;
-  border-left: 5px solid;
   flex-wrap: wrap;
-}
-
-
+  margin: 0 30px 0 30px;
+ }
 
 /*-------------WORK-------------*/
 
+.mini-box {
+  background-color: #39a6b2;
+  margin: 0 0 10px 0;
+}
+
+.mini-box p1 {
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.container2 {
+  display: flex;
+}
+
+.box3 {
+  flex: 3;
+  background-image: url("../images/wave-bg.jpeg");
+  color: var(--primary-color);
+  font-size: 20px;
+  display: flex;
+  text-align: center;  
+  flex-wrap: wrap;
+  margin: 0 30px 0 30px;
+  padding: 370px 0 0 0;
+  border: 5px solid;
+  border-color: #39a6b2;
+}

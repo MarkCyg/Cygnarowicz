@@ -9,6 +9,19 @@
   box-sizing: border-box;
 }
 
+.section-title {
+  font-size: 35px;
+  color: #024e76;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
 /*---------------header---------------*/
 header {
   padding: 20px 35px;
@@ -93,41 +106,29 @@ section {
 
 /*-----------about me---------*/
 
-
-.intro h2 {
-  text-align: left;
-  padding: 0 auto;
+.container1 {
+  display: flex;
 }
 
-.intro p {
+.box1 {
+  flex: 1;
+  color: var(--primary-color);
+  flex-wrap: wrap;
+  font-size: 35px;
+}
+
+.box2 {
+  flex: 3;
   line-height: 1.7;
   color: var(--primary-color);
-  width: 60%;
   font-size: 20px;
-  margin: 0 auto;
+  display: flex;
   text-align: center;
-  border-left: 3px solid;
+  border-left: 5px solid;
+  flex-wrap: wrap;
 }
 
-.section-title {
-  font-size: 35px;
-  color: #024e76;
-}
 
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
 
 /*-------------WORK-------------*/
 
-.work {
-  padding: 0 auto;
-}
-
-.button1 {
-  
-}

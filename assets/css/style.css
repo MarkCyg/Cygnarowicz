@@ -197,7 +197,7 @@ section {
 
 .box4 {
   flex: 1;
-  background-image: url("../images/LED-bg.jpeg");
+  background-image: url("../images/led-bg.jpeg");
   color: var(--primary-color);
   font-size: 20px;
   display: flex;

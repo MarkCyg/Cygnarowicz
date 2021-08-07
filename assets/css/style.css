@@ -136,13 +136,12 @@ section {
 
 .mini-box {
   background-color: #39a6b2;
-  margin: 0 0 10px 0;
+  margin: 0 670px 30px 0;
 }
 
 .mini-box p1 {
   font-weight: bold;
-  padding: 10px 30px;
-}
+ }
 
 .container2 {
   display: flex;
@@ -167,7 +166,20 @@ section {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  height: 250px;
+  margin: 20px 0 0 279px;
+  border-left: 5px solid;
+}
+
+.mini-box1 {
+  background-color: #39a6b2;
+  font-size: 15px;
+  margin: 0 250px 10px 0;
+  padding: 15px 20px;
+}
+
+.mini-box1 p1 {
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .box4 {
@@ -179,7 +191,7 @@ section {
   text-align: center;  
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0 15px 0 15px;
+  margin: 0 30px 0 30px;
   padding: 70px 0 0 0;
   border: 5px solid;
   border-color: #39a6b2;
@@ -217,7 +229,7 @@ section {
 
 .box7 {
   flex: 1;
-  background-image: url("../images/run-buddy-bg.jpeg");
+  background-image: url("../images/run-bg.jpeg");
   color: var(--primary-color);
   font-size: 20px;
   display: flex;

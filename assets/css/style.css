@@ -156,64 +156,76 @@ section {
   display: flex;
   text-align: center;  
   flex-wrap: wrap;
+  justify-content: space-around;
   margin: 0 30px 0 30px;
   padding: 370px 0 0 0;
   border: 5px solid;
   border-color: #39a6b2;
 }
 
+.container3 {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 250px;
+}
+
 .box4 {
   flex: 1;
-  background-image: url("../images/wave-bg.jpeg");
+  background-image: url("../images/LED-bg.jpeg");
   color: var(--primary-color);
   font-size: 20px;
   display: flex;
   text-align: center;  
   flex-wrap: wrap;
-  margin: 0 30px 0 30px;
-  padding: 370px 0 0 0;
+  justify-content: space-around;
+  margin: 0 15px 0 15px;
+  padding: 70px 0 0 0;
   border: 5px solid;
   border-color: #39a6b2;
 }
 
 .box5 {
   flex: 1;
-  background-image: url("../images/wave-bg.jpeg");
+  background-image: url("../images/calc-bg.jpeg");
   color: var(--primary-color);
   font-size: 20px;
   display: flex;
   text-align: center;  
   flex-wrap: wrap;
+  justify-content: space-around;
   margin: 0 30px 0 30px;
-  padding: 370px 0 0 0;
+  padding: 70px 0 0 0;
   border: 5px solid;
   border-color: #39a6b2;
 }
 
 .box6 {
   flex: 1;
-  background-image: url("../images/wave-bg.jpeg");
+  background-image: url("../images/puzzle-bg.jpeg");
   color: var(--primary-color);
   font-size: 20px;
   display: flex;
   text-align: center;  
   flex-wrap: wrap;
+  justify-content: space-around;
   margin: 0 30px 0 30px;
-  padding: 370px 0 0 0;
+  padding: 70px 0 0 0;
   border: 5px solid;
   border-color: #39a6b2;
 }
 
 .box7 {
   flex: 1;
-  background-image: url("../images/wave-bg.jpeg");
+  background-image: url("../images/run-buddy-bg.jpeg");
   color: var(--primary-color);
   font-size: 20px;
   display: flex;
   text-align: center;  
   flex-wrap: wrap;
+  justify-content: space-around;
   margin: 0 30px 0 30px;
-  padding: 370px 0 0 0;
+  padding: 70px 0 0 0;
   border: 5px solid;
   border-color: #39a6b2;
 }
